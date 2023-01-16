@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+input, button{
+    padding: 25px;
+    margin-bottom: 35px;
+    width: 100%;
+    resize: none;
+    border-color: rgb(146, 130, 238);
+    border-radius: 8px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+textarea{
+    margin-bottom: 35px;
+    border-radius: 8px;
+    margin-left: 35px;
+    width: 90%;
+    align-items: center;
+    resize: none;
+    border-color: rgb(146, 130, 238);
+    cursor: pointer;
+}
+
+
+.titulo  {
+    font-size: 35px;
+    padding: 20px;
+    display: flex;
+    margin-right: 90px;
+    float: right;
+    text-align: justify; 
+    color: rgb(73, 73, 77);
+}
+
+
+#number_1, #number_2 {
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(73, 73, 77);
+    color: white;
+}
+
+#text_area{
+    font-size: 25px;
+    height: 110px;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 5px; 
+    letter-spacing: 3px;
+    text-align: justify;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: blue;
+    
+}
+
+::placeholder {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.conteiner{
+    margin: 85px auto;
+    max-width: 640px;
+    width: 150%;
+    border-radius: 1em;
+    padding: 1em;
+    height: auto;
+    border-style: ridge;
+    background-color: rgb(211, 215, 219);
+    border-color: rgb(180, 194, 224);
+}
+
+form{
+    margin-top: 40px;
+}
+
+
+h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+    padding: 1em;
+    text-align: center;
+    color: rgb(42, 35, 138);
+}
+
+button{
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(73, 73, 77);
+}
+
+button:hover{
+    background-color: rgb(0, 60, 150);
+}
+
+
+body{
+    margin-bottom: 4em;
+}
